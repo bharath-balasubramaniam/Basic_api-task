@@ -1,5 +1,5 @@
 let request = new XMLHttpRequest();
-let URL_String = 'https://restcountries.eu/rest/v2/all';
+let URL_String = 'https://restcountries.eu/rest/v3/all';
 
 request.open('GET',URL_String,true);
 request.onload = function() {
